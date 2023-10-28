@@ -37,7 +37,6 @@ do
           --build-arg BUILD_QQNT_LINK=${BUILD_QQNT_LINK} \
           --build-arg BUILD_ARCH=${BUILD_ARCH} \
           --platform ${BUILD_PLATFORM} \
-#          -t ghcr.io/q767939287/docker-qqnt:${BUILD_IMAGE_ARCH_TAG} \
           -t 767939287/qqnt:${BUILD_IMAGE_ARCH_TAG} \
           .
         ;;
@@ -47,7 +46,6 @@ do
           --build-arg BUILD_QQNT_LINK=${BUILD_QQNT_LINK} \
           --build-arg BUILD_ARCH=${BUILD_ARCH} \
           --platform ${BUILD_PLATFORM} \
-#          -t ghcr.io/q767939287/docker-qqnt:${BUILD_IMAGE_ARCH_TAG} \
           -t 767939287/qqnt:${BUILD_IMAGE_ARCH_TAG} \
           .
         ;;
